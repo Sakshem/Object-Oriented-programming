@@ -1,0 +1,1 @@
+This is a demonstration code for class and objects in java.
