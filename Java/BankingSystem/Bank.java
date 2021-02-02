@@ -11,10 +11,10 @@ public class Bank {
     //constructor
     public Bank() {
         this(56789, 0.0, "Default name", "default email", 00000000L);
-        System.out.println("empty constructor called!");
+        //System.out.println("empty constructor called!");
     }
     public Bank(int accountNumber, double balance, String customerName, String email, long phoneNumber) {
-        System.out.println("Account constructor with parameters called!");
+        //System.out.println("Account constructor with parameters called!");
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.customerName = customerName;
