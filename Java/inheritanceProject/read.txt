@@ -1,0 +1,1 @@
+This project is created to demonstrate how inheritance works in java.
