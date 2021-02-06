@@ -23,6 +23,16 @@ void firstMethod ()
     //works for any type of array and elements
     //template search
     cout << search (arrInt, 10, x) << '\n';
+    
+    //using this search () function for other types of arrays
+    double Arr[5], element;
+    cout << "Enter any 5 double type elements inside the array!" << '\n';
+    for (int i = 0; i < 5; i++)  cin >> Arr[i];
+    
+    cout << "Enter the element you want to search!" << '\n';
+    cin >> element;
+
+    cout << search (Arr, 5, element);
 }
 
 class compareInt {
