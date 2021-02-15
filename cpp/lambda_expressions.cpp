@@ -64,7 +64,8 @@ int main ()
     auto f2 = [&n] () { cout << "n++ = " << n++ << '\n';};
     funct (f2);
     funct (f2);
-    //to capture all the variables inside the scope we can just use [&], instead of writing every single variable inside the capture list.
+    //to capture all the variables inside the scope using reference we can just use [&].
+    //to capture all the variables inside the scope using value we can use [=] instead of writing variables names in the capture list [].
     return 0;
 }
 template <typename T> void funct (T p) 
